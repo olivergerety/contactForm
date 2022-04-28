@@ -3,3 +3,19 @@ footer {
   text-align: center;
   border: 3px solid black;
 }
+
+ul {
+	margin: 1.5em; 
+}
+ul li {
+	list-style-image: url(uncheck.gif);
+	border-bottom: 1px solid #ccc;
+	padding: .2em 0 .2em .5em;
+	font-weight: bold;
+	color: #666; 
+}
+ul li:hover {
+	cursor: pointer;
+	background-color: #f2f2f2;
+	color: #000; 
+}
